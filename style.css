@@ -1,0 +1,430 @@
+* {
+    background-color: #323437;
+    font-family: 'Roboto';
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.top-container {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px; 
+}
+.logo {
+    height: 50px;
+    width: 60px;
+    fill: rgb(214, 170, 24);
+    cursor: pointer;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.text {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    margin-top: 0px;
+    padding: 0;
+    padding: 0;
+    font-size: 50px;
+    
+}
+
+i {
+    font-size: 30px; 
+    color: rgb(122, 117, 117);
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.top-right-icon i{
+    margin-left: 700px;
+}
+.middle-container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.puncAndNum button{
+    background-color: #27292c;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    color: #646669;
+}
+.puncAndNum{
+    display: flex;
+}
+.punc{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.mid-section button{
+    background-color: #27292c;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    color: #646669;
+}
+.mid-section{
+    display: flex;
+}
+.spacing-1{
+    background-color: #323437;
+    width: 10px;
+}
+.spacing-2{
+    background-color: #323437;
+    width: 10px;
+}
+.change button{
+    background-color: #27292c;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #646669;;
+}
+.change{
+    display: flex;
+}
+.middle-container button{
+    font-size: 20px;
+}
+.clock,.font,.quote,.zen,.time,.change-size{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.clock{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.time{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+.change-size{
+    border-radius: 20px;
+}
+.middle-container i{
+    background-color: #27292c;
+}
+.third-layer{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+}
+.textButton{
+    font-size: 25px;
+    border: none;
+    color: #646669;
+    cursor: pointer;
+}
+.restart{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.restart-test-button{
+    border: none;
+}
+.content{
+    user-select: none;
+    -webkit-user-select: none;
+    margin: 30px auto;
+    height: over;
+    width: 1300px;
+    text-align: center;
+    font-size: 30px;
+}
+.word{
+    display: inline;
+    margin-right: 5px;
+}
+.content #words{
+    display: inline;
+    font-family: 'roboto mono';
+    font-size: 50px;
+    color: #646669;
+}
+footer {
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    line-height: 1rem;
+    font-size: .75rem;
+    color: #646669;
+}
+footer .keyTips key {
+    width: 50px;
+    margin: 0 .25rem;
+}
+
+key {
+    color: #323437;
+    background-color: #646669;
+    margin: 0;
+    border-radius: .1rem;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    width: 30px;
+}
+.keyTips {
+    font-size: 18px;
+    color: #646669;
+    transition: .125s;
+    margin-bottom: 2em;
+    line-height: 2;
+}
+footer .leftright .left {
+    display: flex;
+    gap: 0rem; /* Space between buttons/links */
+    align-items: center; /* Align buttons/links in the same row */
+    margin-right: 270px;
+    margin-left: 150px;
+    
+}
+
+footer .leftright .left .textButton, footer .leftright .right .textButton{
+    font-size: 18px;
+    display: flex;
+    text-decoration: none;
+    align-items: center; /* Align icon and text on the same line */
+    gap: 0.5rem; /* Space between the icon and text */
+}
+
+footer .leftright .right {
+    display: flex;
+    gap: 1rem; /* Space between "serika dark" and "v24.42.0" buttons */
+    align-items: center; /* Align icons and text on the same line */
+}
+footer .leftright{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+footer i{
+    margin-right:0;
+    font-size: 15px;
+}
+button:hover{
+    color: #d1d0c5;
+}
+a:hover{
+    color: #d1d0c5;
+}
+.correct{
+    color: white;
+}
+.incorrect{
+    color: rgb(213, 56, 56);
+}
+.punc p, .num p{
+    background-color: unset;
+    color: #646669;
+}
+.punc{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.num{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.cl-punc p, .cl-punc i{
+    color: rgb(214, 170, 24);
+}
+.cl-num p, .cl-num i{
+    color: rgb(214, 170, 24);  
+}
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: right;
+    z-index: 1000;
+}
+.popup-content {
+    margin-left: 0;
+    height: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Close button */
+.closepopup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #e60606;
+    cursor: pointer;
+}
+.popup-top1,.popup-bottom1{
+    margin-top: 20px;
+    display: inline-flex;
+    gap: 20px;
+}
+.popup-top1 h1, .popup-bottom1 h1{
+    color: #646669;
+    font-size: 30px;
+    
+}
+.popup-top p, .popup-bottom p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    color: #d1d0c5;
+    margin: 50px 0 50px 0;
+}
+.spacing-popup{
+    width: 100%;
+    height: 2px;
+    background-color: #646669;
+}
+.count-words{
+    margin-left: 180px;
+    color: yellow;
+    font-size: 40px;
+}
+.js-third-box .length{
+    padding: 0 20px 0 20px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/* performance css */
+.grid-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto 1fr;
+}
+.grid-container .top-left{
+    width: 170px;
+    height: 100px;
+    margin: 60px 0 0 120px;
+}
+.grid-container .top-right{
+    margin-top: 70px;
+}
+.WPM, .acc{
+    color: rgb(122, 117, 117);
+    font-size: 2.7rem;
+}
+.count-no, .acc-no{
+    color: #e1b613;
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+.bottom-left{
+    margin: 15px 0 0 120px;
+}
+.test-type{
+    color: rgb(122, 117, 117);
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.info-test{
+    color: #e1b613;
+    font-size: 1.2rem;
+}
+.bottom-right{
+    padding-top: 20px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-around;
+}
+.raw, .char, .consistency, .time{
+    color: rgb(122, 117, 117);
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.raw-count, .char-count, .cons-perc, .time-in-sec{
+    color: #e1b613;
+    font-size: 2.5rem;
+}
+.buttons-set{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 75px;
+}
+button{
+    font-size: 20px;
+    border: none;
+    color: rgb(122, 117, 117);
+}
+i{
+    cursor: pointer;
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: rgb(122, 117, 117);
+    font-size: 20px;
+    letter-spacing: 1.8px;
+}
+u:hover, i:hover{
+    cursor: pointer;
+    color: white;
+}
+.selected-words i, .selected-words p, .word_num{
+    color: #e1b613;
+}
+p{
+    background-color: unset;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.quote-selected p, .quote-selected i{
+    color: #e1b613;
+}
+.word-length{
+    color: #e1b613;
+}
